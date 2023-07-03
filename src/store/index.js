@@ -3,7 +3,6 @@ const dataUrl = "https://thotyelwa5.github.io/vueData/Data/"
 export default createStore({
   state: {
     Testimonials : null,
-    about : null,
     skills : null,
     experience : null,
     education: null,
@@ -14,9 +13,6 @@ export default createStore({
   mutations: {
     setTestimonials(state, Testimonials) {
       state.Testimonials = Testimonials
-    },
-    setAbout(state, about) {
-      state.about = about
     },
     setSkills(state, skills) {
       state.skills = skills
@@ -47,6 +43,24 @@ export default createStore({
         let projectsResponse = await fetch(dataUrl)
         let { Projects } = await projectsResponse.json()
         context.commit('setProjects', Projects)
+      } catch (error) {
+        console.error(error)
+      }
+    },
+    async fetchEducation(context) {
+      try {
+        let educationResponse = await fetch(dataUrl)
+        let { Education } = await educationResponse.json()
+        context.commit('setEducation', Education)
+      } catch (error) {
+        console.error(error)
+      }
+    },
+    async fetchExperience(context) {
+      try {
+        let experienceResponse = await fetch(dataUrl)
+        let { Experience } = await experienceResponse.json()
+        context.commit('setExperience', Experience)
       } catch (error) {
         console.error(error)
       }
