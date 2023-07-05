@@ -32,7 +32,6 @@
     </div>
     <p>Email: mpongwanathotyelwa@gmail.com</p>
     <p>Phone: 0653477406</p>
-    <p>Home Address: H4 Mlangeni Street, Imizamo Yethu Hout Bay, 7806, Cape Town</p>
     <p>Copyright &copy; 2023</p>
   </footer>
 
@@ -45,17 +44,21 @@
 </script>
 
 <style scoped>
+
 .footer {
     background-color: rgb(178, 173, 173);
     text-align: center;
     margin-top: 5rem;
     padding: 1rem;
-  }
+    }
+  
   
   .social-icons {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    animation: bounce; 
+      animation-duration: 30ms;
   }
   
   .social-icons a {

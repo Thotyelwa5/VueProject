@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body{
+  background-image: url(https://i.postimg.cc/V6cSjgv1/photo-1529539795054-3c162aab037a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-bottom: 10rem;
+} */
+
+
+/* .footer {
+    margin-top: 0 !important;
+    margin-bottom: 0!important;
+  } */

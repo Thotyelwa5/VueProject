@@ -1,8 +1,9 @@
 <template>
-
         <nav class="navbar navbar-expand-lg p-0">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#">
+                <img src="https://i.postimg.cc/C5BH2zF4/Screenshot-2023-07-05-112625.png" alt="logo" width="80" height="80">
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -29,9 +30,7 @@
                 </ul>
               </div>
             </div>
-          </nav>
-
-    
+          </nav>  
 </template>
 
 <script>
@@ -42,7 +41,7 @@
 
 <style scoped>
 .navbar {
-  background-color: #f8f9fa;
+  background-color: grey;
   padding: 10px;
 }
 
@@ -64,6 +63,6 @@
 }
 
 .navbar-nav .nav-item a:hover {
-  color: #007bff;
+  color: #160a64;
 }
 </style>
