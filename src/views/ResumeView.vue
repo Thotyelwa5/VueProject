@@ -31,7 +31,8 @@
       <div v-for="Skill in skills" :key="Skill.id" class="card">
         <img :src="Skill.imgUrl" class="card-img-top" :alt="Skill.name" />
         <div class="card-body">
-          <h5 class="card-text">{{ Skill.name }}</h5>
+          <h1 class="card-text">{{ Skill.name }}</h1>
+          <h6 class="card-text">{{Skill.description}}</h6>
         </div>
       </div>
     </div>

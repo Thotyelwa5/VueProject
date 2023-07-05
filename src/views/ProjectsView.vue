@@ -5,8 +5,8 @@
             <img :src=" Project.imgUrl" class="card-img-top" :alt="Project.name">
             <div class="card-body">
               <h5 class="card-title">{{Project.name}}</h5>
-              <a href="github" @click="viewgithub(Project)" class="btn btn-primary">Source code</a>
-              <a href="netlify" @click="netlify(Project)" class="btn btn-primary">Go Live</a>
+              <a :href="Project.github" target="_blank"  class="btn btn-primary">Source code</a>
+              <a :href="Project.netlify" target="_blank" class="btn btn-primary">Go Live</a>
             </div>
           </div>
 

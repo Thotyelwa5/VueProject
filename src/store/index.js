@@ -6,7 +6,7 @@ export default createStore({
     skills : null,
     experience : null,
     education: null,
-    Projects: null
+    Projects: null,
   },
   getters: {
   },
@@ -75,6 +75,7 @@ export default createStore({
       }
     },
   },
+  
   modules: {
   }
 })

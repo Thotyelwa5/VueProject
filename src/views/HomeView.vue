@@ -5,9 +5,11 @@
         <h4 class="animate__animated animate__bounceInUp">Hello There I'm...</h4>
           <h1 class="animate__animated animate__backInRight">Thotyelwa Mpongwana</h1>
           <h6>Aspiring Full-stack Web-Developer</h6>
-          <a href="/views/AboutView.vue">Connect with Me</a>
+          <router-link to="/about">Connect with Me</router-link>
       </div>
-        <img src="https://i.postimg.cc/LsjGqWQj/IMG-1425-3.jpg" alt="landing pg" class="img-fluid" >
+      <div class="image-container">
+        <img src="https://i.postimg.cc/LsjGqWQj/IMG-1425-3.jpg" alt="landing pg" class="img-fluid">
+      </div>
     </div>
   </div>
 </template>
@@ -72,6 +74,12 @@ export default {
   background-color: #0056b3;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .img-fluid {
   width: 500px;
   height: 500px;
@@ -79,7 +87,6 @@ export default {
   border: 5px solid #007bff;
   border-radius: 50%;
   padding-top: 20;
-  
 }
 
 </style>
