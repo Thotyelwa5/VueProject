@@ -1,4 +1,5 @@
 <template>
+
   <div class="about">
     <div class="container">
       <div class="card" style="width: 40rem;">
@@ -9,10 +10,9 @@
         </div>
       </div>
     </div>
-  
-    
-
   </div>
+
+
 </template>
 
 <script>
@@ -32,7 +32,7 @@
 .card {
   width: 50rem;
   max-width: 100%;
-  background-color: white;
+  background-color: rgb(178, 173, 173);
   border-radius: 1.5rem;
   box-shadow: 9px 18px 0px rgba(0, 0, 0, 0.1);
  margin: 0 auto;
@@ -70,7 +70,8 @@
 
 @media (max-width: 576px) {
   .card {
-    width: 90%;
+    width: 100%;
+    height: fit-content;
   }
 }
 </style>

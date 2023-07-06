@@ -1,4 +1,5 @@
 <template>
+
   <h1 class="hey">Testimonials</h1>
     <div class="testimonials">
         <div v-for="Testimonial in Testimonials" :key="Testimonial.id" class="card" style="width: 30rem;">
@@ -10,6 +11,7 @@
             </div>
           </div>
     </div>
+
 </template>
 
 <script>

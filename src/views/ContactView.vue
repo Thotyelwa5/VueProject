@@ -1,4 +1,5 @@
 <template>
+  
   <div class="container">
     <p class="contact">Contact Me</p>
     <form @submit="submitForm" action="https://formspree.io/f/myyaonaq" method="post">
@@ -9,6 +10,10 @@
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name.." v-model="lastName" :class="{ 'error': !isValidLastName }">
       <span class="error-message" v-if="!isValidLastName">Please enter your last name.</span>
+
+      <label for="lname">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email.." v-model="email" :class="{ 'error': !isValidemail }">
+      <span class="error-message" v-if="!isValidemail">Please enter your email.</span>
       
       <label for="subject">Subject</label>
       <textarea id="subject" name="subject" placeholder="Write something.." v-model="subject" :class="{ 'error': !isValidSubject }"></textarea>
@@ -17,6 +22,7 @@
       <input type="submit" value="Submit">
     </form>
   </div>
+
 </template>
 
 <script>
@@ -25,9 +31,11 @@ export default {
     return {
       firstName: '',
       lastName: '',
+      email: '',
       subject: '',
       isValidFirstName: true,
       isValidLastName: true,
+      isValidemail: true,
       isValidSubject: true,
     };
   },
@@ -40,9 +48,10 @@ export default {
     validateForm() {
       this.isValidFirstName = !!this.firstName.trim();
       this.isValidLastName = !!this.lastName.trim();
+      this.isValidemail = !!this.email.trim();
       this.isValidSubject = !!this.subject.trim();
 
-      return this.isValidFirstName && this.isValidLastName && this.isValidSubject;
+      return this.isValidFirstName && this.isValidLastName && this.isValidemail && this.isValidSubject;
     },
   },
 };

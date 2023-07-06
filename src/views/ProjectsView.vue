@@ -1,4 +1,5 @@
 <template>
+
   <h1>My Projects</h1>
     <div class="projects">
         <div v-for="Project in Projects" :key="Project.id" class="card" style="width: 27rem;">
@@ -9,8 +10,8 @@
               <a :href="Project.netlify" target="_blank" class="btn btn-primary">Go Live</a>
             </div>
           </div>
-
     </div>
+
 </template>
 
 <script>
@@ -64,6 +65,7 @@
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
+  margin: 7px;
 }
 
 .btn-primary:hover {
