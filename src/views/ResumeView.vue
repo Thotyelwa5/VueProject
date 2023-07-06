@@ -1,4 +1,5 @@
 <template>
+  
   <div class="container">
   <section class="education">
     <h2>Education</h2>
@@ -37,6 +38,7 @@
       </div>
     </div>
   </section>
+
 </template>
 
 <script>
@@ -148,7 +150,7 @@ export default {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #fff;
+  background-color:#f1f1f1;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;

@@ -18,8 +18,15 @@ export default{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  overflow-x:hidden ;
   
-  
+}
+
+body {
+  background-image: url('https://i.postimg.cc/HLyfshtF/brown-aesthetic-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 
