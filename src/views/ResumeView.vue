@@ -38,6 +38,9 @@
       </div>
     </div>
   </section>
+  <section>
+    <a href="https://drive.google.com/file/d/1Pazz8UTMa6Sa8VkmOx7SjA3nl_7bkI0z/view?usp=drive_link" class="card-link">Download CV</a>
+  </section>
 
 </template>
 
@@ -168,7 +171,26 @@ export default {
 }
 
 .card-text {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
+.card-link {
+  display: flex;
+  margin-left:18rem;
+  margin-right:18rem;
+  justify-content: center;
+  padding: 0.75rem 1.5rem; 
+  background-color: rgb(178, 173, 173);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 4px 8px 0px rgb(110, 109, 109) ; 
+}
+
+.card-link:hover {
+  background-color:  #F3DEBA;
+}
 </style>
+
+

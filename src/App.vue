@@ -1,6 +1,8 @@
 <template>
 <navbar-comp/>
+<main>
   <router-view/>
+</main>
   <FooterComp/>
 </template>
 <script>
@@ -13,7 +15,9 @@ export default{
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
