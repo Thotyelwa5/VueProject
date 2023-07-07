@@ -59,17 +59,20 @@
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: rgb(178, 173, 173);
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
   text-decoration: none;
   margin: 7px;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 4px 8px 0px rgb(110, 109, 109) ; 
 }
 
 .btn-primary:hover {
-  background-color: #0069d9;
+  background-color: #F3DEBA;
 }
 
 </style>

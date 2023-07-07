@@ -91,16 +91,19 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: darkslategrey;
+  background-color:rgb(178, 173, 173);
   color: white;
   padding: 12px 10px;
   border: none;
   border-radius: 4px;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 4px 8px 0px rgb(110, 109, 109) ; 
   cursor: pointer;
 }
 
 input[type="submit"]:hover {
-  background-color: darkslategrey;
+  background-color: #F3DEBA;
 }
 
 .error {

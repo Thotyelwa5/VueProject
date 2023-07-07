@@ -6,7 +6,7 @@
         <h4 class="animate__animated animate__bounceInUp">Hello There I'm...</h4>
           <h1 class="animate__animated animate__backInRight">Thotyelwa Mpongwana</h1>
           <h6>Aspiring Full-stack Web-Developer</h6>
-          <router-link to="/about">Connect with Me</router-link>
+          <router-link to="/about">More About Me</router-link>
       </div>
       <div class="image-container">
         <img src="https://i.postimg.cc/fLmDfHmX/thotyelwamiranda.jpg" alt="landing pg" class="img-fluid">
@@ -65,7 +65,7 @@ export default {
 .container3 a {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color:rgb(178, 173, 173);
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -73,7 +73,7 @@ export default {
 }
 
 .container3 a:hover {
-  background-color: #0056b3;
+  background-color: #F3DEBA;
 }
 
 .image-container {
@@ -88,6 +88,16 @@ export default {
   object-fit: cover;
   border-radius: 50%;
   padding-top: 20;
+}
+@media (width < 780){
+  .img-fluid[data-v-9ea40744] {
+    width: 250px;
+    height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-top: 20px;
+}
 }
 
 </style>

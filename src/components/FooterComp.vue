@@ -51,7 +51,8 @@
     justify-content: center;
     margin-bottom: 1rem;
     animation: bounce; 
-    animation-duration: 2s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
 
   .social-icons a {
