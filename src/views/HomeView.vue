@@ -9,7 +9,7 @@
           <router-link to="/about">More About Me</router-link>
       </div>
       <div class="image-container">
-        <img src="https://i.postimg.cc/fLmDfHmX/thotyelwamiranda.jpg" alt="landing pg" class="img-fluid">
+        <img src="https://drive.google.com/file/d/1R5fkhQFJ4C8cwLgOcFWcWST-Xl3DMuSH/view?usp=sharing" alt="landing pg" class="img-fluid">
       </div>
     </div>
   </div>
